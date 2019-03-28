@@ -1,0 +1,26 @@
+footer {
+    display: flex !important;
+    position: relative !important;
+    bottom: 0 !important;
+    clear: right !important;
+}
+
+.mensaje-encontrados, table, footer {
+    float: right !important;
+}
+
+.aside-busquedas {
+    position: absolute !important;
+    display: block !important;
+    clear: left !important;
+    height: 100% !important;
+}
+
+@media screen and (max-width: 900px) {
+    .aside-busquedas {
+        position: relative !important;
+        display: block !important;
+        clear: left !important;
+        height: 200px !important;
+    }
+} 
