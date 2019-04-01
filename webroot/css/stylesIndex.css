@@ -1,8 +1,8 @@
 footer {
-    display: flex !important;
     position: relative !important;
     bottom: 0 !important;
-    clear: right !important;
+    width: 100% !important;
+    /* height: 20px !important; */
 }
 
 .mensaje-encontrados, table, footer {
